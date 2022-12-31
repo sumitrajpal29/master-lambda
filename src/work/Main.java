@@ -53,5 +53,9 @@ public class Main {
 		
 		System.out.println(lmbd1.sum(3,70));
 		
+		
+		LengthInter lengthInter=st->st.length();
+		System.out.println("Length of String = "+lengthInter.getLength("Hello, how are you?"));
+		
 	}
 }
